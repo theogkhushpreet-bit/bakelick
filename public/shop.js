@@ -2,7 +2,7 @@ const PRODUCTS = [
   { id: 'choco-chip', name: 'Chocolate Chip Cookies', description: 'Classic, chewy & chocolatey', price: 75 },
   { id: 'biscoff-lava', name: 'Classic Butter Bites', description: 'Warm, gooey Biscoff-filled center', price: 110 },
   { id: 'mini-dippers', name: 'Bakelick Assorted Box', description: '8 bite-sized cookies served with a rich chocolate dip', price: 249 },
-  { id: 'double-choco', name: 'Double Chocolate Cookies', description: 'Rich cocoa, extra chocolate', price: 179 }
+ // Bicoff lava is removed here
 ];
 const cart = new Map();
 const $ = (id) => document.getElementById(id);
