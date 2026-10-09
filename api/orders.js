@@ -2,10 +2,9 @@ const crypto = require('crypto');
 const { supabase, json, isAdmin, clean, money } = require('./_lib');
 
 const CATALOG = {
-  'choco-chip': { name: 'Chocolate Chip Cookies', price: 149 },
-  'butter-bites': { name: 'Classic Butter Bites', price: 129 },
-  'cookie-box': { name: 'Bakelick Assorted Box', price: 249 },
-  'double-choco': { name: 'Double Chocolate Cookies', price: 179 }
+  'choco-chip': { name: 'Chocolate Chip Cookies', price: 75 },
+  'biscoff-lava': { name: 'Classic Butter Bites', price: 110 },
+  'mini-dippers': { name: 'Bakelick Assorted Box', price: 249 },
 };
 const MAX_PROOF_BYTES = 3 * 1024 * 1024;
 function decodeImage(dataUrl) {
